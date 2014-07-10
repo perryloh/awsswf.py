@@ -1,0 +1,7 @@
+#* * * * * /bin/echo "hello world" >> /vagrant/test.log
+* * * * * /usr/bin/python /vagrant/d2.py >> /vagrant/testpy.log
+* * * * * /usr/bin/python /vagrant/decider.py >> /vagrant/testdecider.log
+* * * * * /usr/bin/python /vagrant/stringcapworker.py 'sc_tasks'
+* * * * * /usr/bin/python /vagrant/stringreverseworker.py 'sr_tasks'
+* * * * * /usr/bin/python /vagrant/stringupperworker.py 'su_tasks'
+
